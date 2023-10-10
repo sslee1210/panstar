@@ -1,0 +1,171 @@
+@charset "utf-8";
+html {
+  margin: 0;
+}
+
+.container {
+  margin: 0; padding: 0;
+  background-image : url('./images/visual_default.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh; width: 100vw;
+}
+
+.header_bar {
+  border-bottom: 1px solid #fff;
+  height: 100px;
+  padding: 0; margin: 0;
+  position: fixed;
+  width: 100vw;
+  margin: 0;
+}
+
+.logo {
+  position: relative;
+  top: 35px;   left: 50px;
+}
+
+.e-shipping {
+  position: relative;
+  bottom: 90px; left: 1850px; 
+}
+
+.site {
+  background-color:transparent;
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  left: 2000px; bottom: 100px;
+  margin: 0; padding: 0; width: 95px;
+  border: none;
+}
+
+.lang {
+  background-color:transparent;
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  left: 2030px; bottom: 100px;
+  margin: 0; padding: 0; width: 50px;
+  border: none;
+}
+
+.menu {
+  overflow: hidden;
+  padding: 0;
+  margin-top: 0;
+  list-style:none;
+  display: flex;
+  position: relative;
+  min-width: 150px; height: 80px;
+  bottom: 10px;
+  overflow: visible;
+}
+
+.menu > li {
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;  
+  position: relative;
+  left: 550px; 
+}
+
+.menu > li > a {
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0;
+}
+
+.menu a {
+  font-weight: bold;
+  text-decoration:none;
+  display: block;
+  font-size: 1rem;
+}
+
+.submenu {
+  background-color: rgb(255, 255, 255);
+  display: none;
+}
+
+.submenu > li {
+  list-style: none;
+  line-height: 30px;
+ }
+
+
+.header_bar:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.header_bar:hover a {
+  color: #000;
+}
+
+.header_bar:hover p {
+  color: #000;
+}
+
+.header_bar:hover .submenu {
+  display: block;
+}
+
+.menu:hover a {
+  color: #000;
+}
+
+.menu > li a:hover {
+  color: orangered;
+}
+
+.menu:hover .submenu {
+  display: block;
+}
+
+.submenu li:hover a {
+  color: orangered;
+}
+
+.values h2 {
+  color: #ffffff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 65px;
+  line-height: 75px;
+  position: relative;
+  top: 530px; left: 350px;
+  margin: 0; padding: 0;
+  width: 840px;
+}
+
+.values p {
+  color: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
+  position: relative;
+  top: 550px; left: 380px;
+  margin: 0; padding: 0;
+  width: 300px;
+}
+
+.bold {
+  font-size: 75px;
+}
+
+.link1 {
+text-decoration: none;
+color: #fff;
+position: relative;
+left: 93%; top: 380px;
+
+}
+
+.link2 {
+text-decoration: none;
+color: #fff;
+position: relative;
+left: 93%; top: 420px;
+}
+  
